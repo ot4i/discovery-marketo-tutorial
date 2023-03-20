@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="marketo" policyName="Marketo1" policyTemplate="online_v1_oauth2_credentials">
+    <credentialName>CompletePolicyProjectMarketo_Marketo1</credentialName>
+    <applicationVersion>v1</applicationVersion>
+    <applicationType>online</applicationType>
+    <authenticationMethod>OAUTH2_CREDENTIALS</authenticationMethod>
+    <identityUrl>REPLACE_WITH_YOUR_IDENTITY_URL</identityUrl>
+    <apiUrl>REPLACE_WITH_YOUR_ENDPOINT_URL</apiUrl>
+  </policy>
+</policies>
