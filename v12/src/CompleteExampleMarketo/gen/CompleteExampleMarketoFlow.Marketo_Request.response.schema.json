@@ -1,0 +1,538 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "items": {
+    "type": "object",
+    "properties": {
+      "company": {
+        "displayOrder": 1,
+        "title": "Company Name",
+        "description": "Company Name",
+        "type": "string"
+      },
+      "site": {
+        "displayOrder": 2,
+        "title": "Site",
+        "description": "Site",
+        "type": "string"
+      },
+      "billingStreet": {
+        "displayOrder": 3,
+        "title": "Billing Address",
+        "description": "Billing Address",
+        "type": "string"
+      },
+      "billingCity": {
+        "displayOrder": 4,
+        "title": "Billing City",
+        "description": "Billing City",
+        "type": "string"
+      },
+      "billingState": {
+        "displayOrder": 5,
+        "title": "Billing State",
+        "description": "Billing State",
+        "type": "string"
+      },
+      "billingCountry": {
+        "displayOrder": 6,
+        "title": "Billing Country",
+        "description": "Billing Country",
+        "type": "string"
+      },
+      "billingPostalCode": {
+        "displayOrder": 7,
+        "title": "Billing Postal Code",
+        "description": "Billing Postal Code",
+        "type": "string"
+      },
+      "website": {
+        "displayOrder": 8,
+        "title": "Website",
+        "description": "Website",
+        "type": "string"
+      },
+      "mainPhone": {
+        "displayOrder": 9,
+        "title": "Main Phone",
+        "description": "Main Phone",
+        "type": "string"
+      },
+      "annualRevenue": {
+        "displayOrder": 10,
+        "title": "Annual Revenue",
+        "description": "Annual Revenue",
+        "type": "number"
+      },
+      "numberOfEmployees": {
+        "displayOrder": 11,
+        "title": "Num Employees",
+        "description": "Num Employees",
+        "type": "number"
+      },
+      "industry": {
+        "displayOrder": 12,
+        "title": "Industry",
+        "description": "Industry",
+        "type": "string"
+      },
+      "sicCode": {
+        "displayOrder": 13,
+        "title": "SIC Code",
+        "description": "SIC Code",
+        "type": "string"
+      },
+      "mktoCompanyNotes": {
+        "displayOrder": 14,
+        "title": "Company Notes",
+        "description": "Company Notes",
+        "type": "string"
+      },
+      "externalCompanyId": {
+        "displayOrder": 17,
+        "title": "External Company Id",
+        "description": "External Company Id",
+        "type": "string"
+      },
+      "id": {
+        "displayOrder": 18,
+        "title": "Id",
+        "description": "Id",
+        "type": "number"
+      },
+      "mktoName": {
+        "displayOrder": 19,
+        "title": "Full Name",
+        "description": "Full Name",
+        "type": "string"
+      },
+      "personType": {
+        "displayOrder": 20,
+        "title": "Person Type",
+        "description": "Person Type",
+        "type": "string"
+      },
+      "mktoIsPartner": {
+        "displayOrder": 21,
+        "title": "Is Partner",
+        "description": "Is Partner",
+        "type": "boolean"
+      },
+      "isLead": {
+        "displayOrder": 22,
+        "title": "Is Lead",
+        "description": "Is Lead",
+        "type": "boolean"
+      },
+      "mktoIsCustomer": {
+        "displayOrder": 23,
+        "title": "Is Customer",
+        "description": "Is Customer",
+        "type": "boolean"
+      },
+      "isAnonymous": {
+        "displayOrder": 24,
+        "title": "Is Anonymous",
+        "description": "Is Anonymous",
+        "type": "boolean"
+      },
+      "salutation": {
+        "displayOrder": 25,
+        "title": "Salutation",
+        "description": "Salutation",
+        "type": "string"
+      },
+      "firstName": {
+        "displayOrder": 26,
+        "title": "First Name",
+        "description": "First Name",
+        "type": "string"
+      },
+      "middleName": {
+        "displayOrder": 27,
+        "title": "Middle Name",
+        "description": "Middle Name",
+        "type": "string"
+      },
+      "lastName": {
+        "displayOrder": 28,
+        "title": "Last Name",
+        "description": "Last Name",
+        "type": "string"
+      },
+      "email": {
+        "displayOrder": 29,
+        "title": "Email Address",
+        "description": "Email Address",
+        "display": {
+          "nameProperty": true
+        },
+        "type": "string"
+      },
+      "phone": {
+        "displayOrder": 30,
+        "title": "Phone Number",
+        "description": "Phone Number",
+        "type": "number"
+      },
+      "mobilePhone": {
+        "displayOrder": 31,
+        "title": "Mobile Phone Number",
+        "description": "Mobile Phone Number",
+        "type": "number"
+      },
+      "fax": {
+        "displayOrder": 32,
+        "title": "Fax Number",
+        "description": "Fax Number",
+        "type": "number"
+      },
+      "title": {
+        "displayOrder": 33,
+        "title": "Job Title",
+        "description": "Job Title",
+        "type": "string"
+      },
+      "contactCompany": {
+        "displayOrder": 34,
+        "title": "Contact Company",
+        "description": "Contact Company",
+        "type": "number"
+      },
+      "dateOfBirth": {
+        "displayOrder": 35,
+        "title": "Date of Birth",
+        "description": "Date of Birth",
+        "type": "string",
+        "format": "date-time"
+      },
+      "address": {
+        "displayOrder": 36,
+        "title": "Address",
+        "description": "Address",
+        "type": "string"
+      },
+      "city": {
+        "displayOrder": 37,
+        "title": "City",
+        "description": "City",
+        "type": "string"
+      },
+      "state": {
+        "displayOrder": 38,
+        "title": "State",
+        "description": "State",
+        "type": "string"
+      },
+      "country": {
+        "displayOrder": 39,
+        "title": "Country",
+        "description": "Country",
+        "type": "string"
+      },
+      "postalCode": {
+        "displayOrder": 40,
+        "title": "Postal Code",
+        "description": "Postal Code",
+        "type": "string"
+      },
+      "originalSourceType": {
+        "displayOrder": 41,
+        "title": "Original Source Type",
+        "description": "Original Source Type",
+        "type": "string"
+      },
+      "originalSourceInfo": {
+        "displayOrder": 42,
+        "title": "Original Source Info",
+        "description": "Original Source Info",
+        "type": "string"
+      },
+      "registrationSourceType": {
+        "displayOrder": 43,
+        "title": "Registration Source Type",
+        "description": "Registration Source Type",
+        "type": "string"
+      },
+      "registrationSourceInfo": {
+        "displayOrder": 44,
+        "title": "Registration Source Info",
+        "description": "Registration Source Info",
+        "type": "string"
+      },
+      "originalSearchEngine": {
+        "displayOrder": 45,
+        "title": "Original Search Engine",
+        "description": "Original Search Engine",
+        "type": "string"
+      },
+      "originalSearchPhrase": {
+        "displayOrder": 46,
+        "title": "Original Search Phrase",
+        "description": "Original Search Phrase",
+        "type": "string"
+      },
+      "originalReferrer": {
+        "displayOrder": 47,
+        "title": "Original Referrer",
+        "description": "Original Referrer",
+        "type": "string"
+      },
+      "emailInvalid": {
+        "displayOrder": 48,
+        "title": "Email Invalid",
+        "description": "Email Invalid",
+        "type": "boolean"
+      },
+      "emailInvalidCause": {
+        "displayOrder": 49,
+        "title": "Email Invalid Cause",
+        "description": "Email Invalid Cause",
+        "type": "string"
+      },
+      "unsubscribed": {
+        "displayOrder": 50,
+        "title": "Unsubscribed",
+        "description": "Unsubscribed",
+        "type": "boolean"
+      },
+      "doNotCall": {
+        "displayOrder": 51,
+        "title": "Do Not Call",
+        "description": "Do Not Call",
+        "type": "boolean"
+      },
+      "mktoDoNotCallCause": {
+        "displayOrder": 52,
+        "title": "Do Not Call Cause",
+        "description": "Do Not Call Cause",
+        "type": "string"
+      },
+      "mktoPersonNotes": {
+        "displayOrder": 57,
+        "title": "Person Notes",
+        "description": "Person Notes",
+        "type": "string"
+      },
+      "anonymousIP": {
+        "displayOrder": 58,
+        "title": "Anonymous IP",
+        "description": "Anonymous IP",
+        "type": "string"
+      },
+      "inferredCompany": {
+        "displayOrder": 59,
+        "title": "Inferred Company",
+        "description": "Inferred Company",
+        "type": "string"
+      },
+      "inferredCountry": {
+        "displayOrder": 60,
+        "title": "Inferred Country",
+        "description": "Inferred Country",
+        "type": "string"
+      },
+      "inferredCity": {
+        "displayOrder": 61,
+        "title": "Inferred City",
+        "description": "Inferred City",
+        "type": "string"
+      },
+      "inferredStateRegion": {
+        "displayOrder": 62,
+        "title": "Inferred State Region",
+        "description": "Inferred State Region",
+        "type": "string"
+      },
+      "inferredPostalCode": {
+        "displayOrder": 63,
+        "title": "Inferred Postal Code",
+        "description": "Inferred Postal Code",
+        "type": "string"
+      },
+      "inferredMetropolitanArea": {
+        "displayOrder": 64,
+        "title": "Inferred Metropolitan Area",
+        "description": "Inferred Metropolitan Area",
+        "type": "string"
+      },
+      "inferredPhoneAreaCode": {
+        "displayOrder": 65,
+        "title": "Inferred Phone Area Code",
+        "description": "Inferred Phone Area Code",
+        "type": "string"
+      },
+      "department": {
+        "displayOrder": 69,
+        "title": "Department",
+        "description": "Department",
+        "type": "string"
+      },
+      "createdAt": {
+        "displayOrder": 72,
+        "title": "Created At",
+        "description": "Created At",
+        "type": "string",
+        "format": "date-time"
+      },
+      "updatedAt": {
+        "displayOrder": 73,
+        "title": "Updated At",
+        "description": "Updated At",
+        "type": "string",
+        "format": "date-time"
+      },
+      "cookies": {
+        "displayOrder": 74,
+        "title": "Cookies",
+        "description": "Cookies",
+        "type": "string"
+      },
+      "externalSalesPersonId": {
+        "displayOrder": 75,
+        "title": "External Sales Person Id",
+        "description": "External Sales Person Id",
+        "type": "string"
+      },
+      "leadPerson": {
+        "displayOrder": 76,
+        "title": "Lead Person",
+        "description": "Lead Person",
+        "type": "number"
+      },
+      "leadRole": {
+        "displayOrder": 77,
+        "title": "Role",
+        "description": "Role",
+        "type": "string"
+      },
+      "leadSource": {
+        "displayOrder": 78,
+        "title": "Lead Source",
+        "description": "Lead Source",
+        "type": "string"
+      },
+      "leadStatus": {
+        "displayOrder": 79,
+        "title": "Lead Status",
+        "description": "Lead Status",
+        "type": "string"
+      },
+      "leadScore": {
+        "displayOrder": 80,
+        "title": "Lead Score",
+        "description": "Lead Score",
+        "type": "number"
+      },
+      "urgency": {
+        "displayOrder": 81,
+        "title": "Urgency",
+        "description": "Urgency",
+        "type": "number"
+      },
+      "priority": {
+        "displayOrder": 82,
+        "title": "Priority",
+        "description": "Priority",
+        "type": "number"
+      },
+      "relativeScore": {
+        "displayOrder": 83,
+        "title": "Relative Score",
+        "description": "Relative Score",
+        "type": "number"
+      },
+      "rating": {
+        "displayOrder": 85,
+        "title": "Lead Rating",
+        "description": "Lead Rating",
+        "type": "string"
+      },
+      "personPrimaryLeadInterest": {
+        "displayOrder": 86,
+        "title": "Primary Lead Interest",
+        "description": "Primary Lead Interest",
+        "type": "number"
+      },
+      "leadPartitionId": {
+        "displayOrder": 87,
+        "title": "Lead Partition Id",
+        "description": "Lead Partition Id",
+        "type": "number"
+      },
+      "leadRevenueCycleModelId": {
+        "displayOrder": 88,
+        "title": "Lead Revenue Cycle Model ID",
+        "description": "Lead Revenue Cycle Model ID",
+        "type": "number"
+      },
+      "leadRevenueStageId": {
+        "displayOrder": 89,
+        "title": "Lead Revenue Stage ID",
+        "description": "Lead Revenue Stage ID",
+        "type": "number"
+      },
+      "gender": {
+        "displayOrder": 90,
+        "title": "Marketo Social Gender",
+        "description": "Marketo Social Gender",
+        "type": "string"
+      },
+      "facebookDisplayName": {
+        "displayOrder": 91,
+        "title": "Marketo Social Facebook Display Name",
+        "description": "Marketo Social Facebook Display Name",
+        "type": "string"
+      },
+      "twitterDisplayName": {
+        "displayOrder": 92,
+        "title": "Marketo Social Twitter Display Name",
+        "description": "Marketo Social Twitter Display Name",
+        "type": "string"
+      },
+      "linkedInDisplayName": {
+        "displayOrder": 93,
+        "title": "Marketo Social LinkedIn Display Name",
+        "description": "Marketo Social LinkedIn Display Name",
+        "type": "string"
+      },
+      "facebookId": {
+        "displayOrder": 114,
+        "title": "Marketo Social Facebook Id",
+        "description": "Marketo Social Facebook Id",
+        "type": "string"
+      },
+      "twitterId": {
+        "displayOrder": 115,
+        "title": "Marketo Social Twitter Id",
+        "description": "Marketo Social Twitter Id",
+        "type": "string"
+      },
+      "linkedInId": {
+        "displayOrder": 116,
+        "title": "Marketo Social LinkedIn Id",
+        "description": "Marketo Social LinkedIn Id",
+        "type": "string"
+      },
+      "acquisitionProgramId": {
+        "displayOrder": 117,
+        "title": "Acquisition Program",
+        "description": "Acquisition Program",
+        "type": "number"
+      },
+      "mktoAcquisitionDate": {
+        "displayOrder": 118,
+        "title": "Acquisition Date",
+        "description": "Acquisition Date",
+        "type": "string",
+        "format": "date-time"
+      }
+    },
+    "title": "leads",
+    "required": [
+      "email"
+    ],
+    "additionalProperties": false
+  },
+  "type": "array",
+  "title": "leads"
+}
